@@ -1,0 +1,86 @@
+.display{
+    height:100vh ;
+    background-color:  rgb(18, 153, 57);   
+    display: flex;
+}
+.card{
+    width: 300px;
+    height: 400px;
+    background-color: #242628;
+    margin: auto;
+    margin-top: 150px;
+    margin-left: 620px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.image{
+    text-align: center;
+    width: 120px;
+	height: 120px;
+    border-radius: 100%;
+    margin-left:85px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-width: 4px;
+    border-color:red ;
+    border-style: solid;
+    
+}
+
+
+#id01{
+    height: 60px;
+    margin-left: 60px;
+    color: whitesmoke;  
+    transition: hidden;  
+    margin-top: 10px;  
+}
+#id02{
+    margin-left: 107px;
+    color: rgb(233, 106, 106);
+    /* margin-top: 15px; */
+    
+}
+.id04{
+    background-color: #242628;
+    color: aliceblue;
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(238, 79, 79);
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.id04:hover {
+    background-color: brown;
+}
+.id03{   
+    text-align: center;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    margin-left: 70px;
+    color: aliceblue;
+}
+.image:hover {
+   width: 300px;
+   height: 300px;
+   border-radius: 5px;
+   margin: auto;
+   border: 0px; 
+   
+}
+
+
+
+
+/* @keyframes animation1 {
+    100%{
+        transform: translateY(25px);
+    }
+} */
