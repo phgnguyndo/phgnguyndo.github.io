@@ -23,8 +23,9 @@
     cursor: pointer;
     border-width: 4px;
     border-color:red ;
+    object-fit: cover;
     border-style: solid;
-    
+    transition: 0.4s;
 }
 
 
@@ -69,7 +70,7 @@
 }
 .image:hover {
    width: 300px;
-   height: 300px;
+   height: 400px;
    border-radius: 5px;
    margin: auto;
    border: 0px; 
